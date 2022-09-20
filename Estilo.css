@@ -1,0 +1,14 @@
+nav{
+    width: 1200px;
+    display: flex;
+}
+.Logo{
+    position: absolute;
+    width: 155px;
+    height: 70px;
+    left: 120px;
+    top: 363px;
+}
+menu{
+    width: 120px;
+}
