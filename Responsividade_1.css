@@ -1,0 +1,76 @@
+/* Celular */
+
+@media(max-width: 600px){
+    nav, nav .menu{
+        width: 600px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+
+    main{
+        width: 600px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+
+    .Banner{
+        display: none;
+    }
+   
+    .Text{
+        width: 320px;
+    }
+
+    .Cards{
+        flex-direction: column;
+    }
+    .Card{
+        justify-content: space-between;
+    }
+    footer{
+        width: 600px;
+        height: 120px;
+    }
+}
+
+/* Tablets */
+
+@media(max-width: 1200px){
+    nav, nav .menu{
+        width: 768px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+
+    main{
+        width: 768px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+
+    .Banner{
+        display: none;
+    }
+   
+    .Text{
+        width: 768px;
+    }
+
+    .Card{
+        justify-content: space-between;
+    }
+    footer{
+        width: 768px;
+        height: 120px;
+    }
+}

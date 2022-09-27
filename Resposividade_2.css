@@ -1,0 +1,69 @@
+/* Celular */
+
+@media(max-width: 600px){
+    nav{
+        width: 360px;
+    }
+    
+    main{
+        width: 360px;
+        
+        display: block;
+    }
+    
+    .Dados{
+        width: 360px;
+        height: 600px;
+        display: flex;
+    }
+
+    .Contato-Separardo{
+        width: 360px;
+        height: 120px;
+        text-align: center;
+        display: block;
+    }
+
+    input{
+        width: 300px;
+    }
+    
+    textarea{
+        width: 300px;
+    }
+}
+
+/* Tablets */
+@media(max-width: 1200px){
+    nav{
+        width: 768px;
+    }
+    
+    main{
+        width: 768px;
+        height: 70px;
+        display: flex;
+    }
+    
+    .Dados{
+        width: 768px;
+        height: 600px;
+        display: flex;
+    }
+
+    .Contato-Separardo{
+        width: 768px;
+        height: 600px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    input{
+        width: 303px;
+    }
+    
+    textarea{
+        width: 303px;
+    }
+}
